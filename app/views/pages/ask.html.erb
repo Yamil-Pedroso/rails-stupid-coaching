@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>Asking here many questions:</h1>
+
+    <form action="/answer" data-turbo="false">
+      <input type="text" name="questions" value="<%= params[:question] %>">
+      <input type="submit" value="Ask!">
+    </form>
+</div>
